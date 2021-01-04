@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.1)
+
+project(algorithm_playground)
+
+add_executable(linear_search linear_search.cpp)
+add_executable(linear_search_improved linear_search_improved.cpp)
+add_executable(binary_search binary_search.cpp)
+add_executable(binary_search_iterative binary_search_iterative.cpp)
+add_executable(jump_search jump_search.cpp)
+add_executable(interpolation_search interpolation_search.cpp)
+add_executable(exponential_search exponential_search.cpp)
+add_executable(ternary_search ternary_search.cpp)
