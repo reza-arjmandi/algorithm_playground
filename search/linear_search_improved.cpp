@@ -1,4 +1,5 @@
 #include <vector>
+#include <iostream>
 
 void search(std::vector<int> arr, int search_Element) {
     int left = 0;
@@ -32,7 +33,7 @@ void search(std::vector<int> arr, int search_Element) {
 
 int main() 
 { 
-    vector<int> arr{ 1, 2, 3, 4, 5 }; 
+    std::vector<int> arr{ 1, 2, 3, 4, 5 }; 
     int search_element = 5; 
       
     search(arr, search_element); 
