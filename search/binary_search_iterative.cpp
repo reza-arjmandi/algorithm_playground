@@ -10,7 +10,7 @@ int binary_search(int arr[], int l, int r, int x) {
             l = m + 1;
         }
         else {
-            l = m - 1;
+            r = m - 1;
         }
     }
 
@@ -19,7 +19,7 @@ int binary_search(int arr[], int l, int r, int x) {
 
 int main() {
     int arr[] = {2, 3, 4, 10, 40};
-    int x = 10;
+    int x = 3;
     int n = sizeof(arr) / sizeof(arr[0]);
     int result = binary_search(arr, 0, n-1, x);
     result == -1 ? std::cout << "Element is not present in array"
